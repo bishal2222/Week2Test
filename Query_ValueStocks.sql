@@ -4,7 +4,7 @@
 --array_agg to aggregrate result column in array format as in expected ouput
 --I used the difference of two consecutive year to resolve this task
 
-	 select array_agg(distinct d3.company) valuestocks  
+	select array_agg(distinct d3.company) valuestocks  
 	from dividend as d3
 	inner join
 		(select distinct d1.company, d1.fiscal_year
