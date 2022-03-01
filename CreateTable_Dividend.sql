@@ -1,6 +1,10 @@
+-- tried this below code to directly import data to table dividend but it didn't work as expected
+
 -- copy dividend
 -- from '/home/bishal/work/express_analytics/Week2Test/Week2Test/data.txt'
 -- delimiter ','
+
+-- since the above code didn't work so data was inserted manually using the below query
 
 insert into dividend 
 values
